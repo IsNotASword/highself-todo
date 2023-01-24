@@ -16,8 +16,8 @@ import { MdDragHandle } from 'react-icons/md'
 function SliderMotivation({ motivation, setMotivation }) {
   const motivationValues = {
     0: '😭',
-    1: '😥',
-    2: '😢',
+    1: '😢',
+    2: '😥',
     3: '🥲',
     4: '🙃',
     5: '🙂',
