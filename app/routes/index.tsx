@@ -15,8 +15,8 @@ export default function Index() {
             Your Best Version Every Day
           </Text>
           <Text opacity="0.65" fontSize="xl" fontWeight="normal">
-            By watching images everyday of your desired goal, you're programming your mind for
-            success!
+            By watching AI-generated images of your best self everyday, you're programming your mind
+            for success!
           </Text>
           <Button as={Link} to="/motivation" size="lg" colorScheme="purple">
             Start my routine!

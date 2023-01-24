@@ -41,7 +41,7 @@ const ImageHighSelf = ({ onRevealed, src, initialText, text }) => {
       </motion.div>
       <motion.div
         style={{
-          backdropFilter: 'blur(10px) brightness(0.5)',
+          backgroundColor: 'rgba(0, 0, 0, 0.8)',
           opacity: 1,
           width: '100%',
           height: '100%',
