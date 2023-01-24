@@ -6,21 +6,18 @@ import Layout from '~/components/layout'
 import Section from '~/components/section'
 import SliderMotivation from '~/components/sliderMotivation'
 
-export default function Index() {
+export default function Success() {
   return (
     <Layout>
       <Article flex="100%" justify="center">
-        <Section textAlign="center" spacing={4}>
-          <Text fontSize="3xl" fontWeight="bold">
-            Your Best Version Every Day
+        <Section textAlign="center">
+          <Text fontSize="xl" fontWeight="bold">
+            Congrats! <br /> You've reached your high self!
+            <br />
+            <Box as="span" opacity="0.65" fontWeight="normal">
+              Remember to comeback tommorrow! Each day you're programming your mind for success.
+            </Box>
           </Text>
-          <Text opacity="0.65" fontSize="xl" fontWeight="normal">
-            By watching images everyday of your desired goal, you're programming your mind for
-            success!
-          </Text>
-          <Button as={Link} to="/motivation" size="lg" colorScheme="purple">
-            Start my routine!
-          </Button>
         </Section>
       </Article>
     </Layout>

@@ -61,7 +61,7 @@ const theme = extendTheme({ colors, breakpoints, fonts })
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'New Remix App',
+  title: 'highSelf',
   viewport: 'width=device-width,initial-scale=1',
 })
 
